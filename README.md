@@ -5,6 +5,7 @@ The model contains:
 1. A flatten layer that converts each 28x28 images into 784-element input vector
 2. Two Dense layers with 128 and 64 neurons
 3. A Dense output layer with 10 neurons (one for each 0-9 digit)
+
 All hidden layers use the ReLU activation function.
 
 ## Project Overview
@@ -22,6 +23,7 @@ A multi-layer feedforward ANN:
 - **Hidden layer 1:** Dense(128), ReLU
 - **Hidden layer 2:** Dense(64), ReLU
 - **Output layer:** 10 neurons
+  
 **Activation function** used is ReLU because it's faster to train the network compared to when using sigmoid function.
   
 ## Technologies Used
@@ -37,7 +39,7 @@ A multi-layer feedforward ANN:
 ## Results
 The model has achieved an accuracy of 97.36% on the validation set.
 
-![Accuracy plot](accuracy plot.png)
+![Accuracy plot](accuracyplot.png)
 
 ## Predictions
 The model predicted 100% for the first five images from the testing dataset.
