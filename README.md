@@ -36,10 +36,12 @@ A multi-layer feedforward ANN:
 
 ## Results
 The model has achieved an accuracy of 97.36% on the validation set.
-![Accuracy plot](accuracyplot.png)
+
+![Accuracy plot](accuracy plot.png)
 
 ## Predictions
 The model predicted 100% for the first five images from the testing dataset.
+Here's an example:
 ![example of the prediction](predictions.png)
 
 ## Authors 
